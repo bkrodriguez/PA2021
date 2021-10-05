@@ -14,7 +14,7 @@ int main(array<System::String^>^ args)
 {
     int Valores[] = {50, 20, 30, 80, 40};
     Ordenamientos^ Obj = gcnew Ordenamientos();
-    Obj->Selection(Valores, 5);
+    Obj->Shell(Valores, 5);
     Console::ReadKey();
     return 0;
 }

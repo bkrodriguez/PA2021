@@ -69,3 +69,22 @@ void Ordenamientos::Selection(int valores[], int n)
 		Console::WriteLine(valores[i]);
 	}
 }
+
+void Ordenamientos::Shell(int valores[], int n)
+{
+	for (int gap = n/2; gap > 0; gap /= 2)
+	{
+		for (int i = gap; i < n; i++)
+		{
+			int Temp = valores[i];
+			int j;
+			for (j = i; j >= gap && valores[j - gap] > Temp; j -= gap)
+				valores[j] = valores[j - gap];
+			valores[j] = Temp;
+		}
+	}
+	for (int i = 0; i < n; i++)
+	{
+		Console::WriteLine(valores[i]);
+	}
+}
