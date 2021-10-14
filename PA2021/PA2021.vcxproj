@@ -126,6 +126,7 @@
     <ResourceCompile Include="app.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Busqueda.h" />
     <ClInclude Include="Clase28092021.h" />
     <ClInclude Include="Cola.h" />
     <ClInclude Include="ListaDoble.h" />
@@ -141,6 +142,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Busqueda.cpp" />
     <ClCompile Include="Clase28092021.cpp" />
     <ClCompile Include="Cola.cpp" />
     <ClCompile Include="ListaDoble.cpp" />

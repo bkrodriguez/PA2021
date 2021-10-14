@@ -56,6 +56,9 @@
     <ClInclude Include="Ordenamientos.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Busqueda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PA2021.cpp">
@@ -95,6 +98,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Ordenamientos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Busqueda.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

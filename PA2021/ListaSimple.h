@@ -1,5 +1,8 @@
 #include "NodoSimple.h"
 #pragma once
+
+using namespace System;
+
 ref class ListaSimple
 {
 

@@ -88,3 +88,74 @@ void Ordenamientos::Shell(int valores[], int n)
 		Console::WriteLine(valores[i]);
 	}
 }
+
+void Ordenamientos::Intercambio(int* a, int* b)
+{
+	int Temp = *a;
+	*a = *b;
+	*b = Temp;
+}
+
+int Ordenamientos::Particion(int valores[], int bajo, int alto)
+{
+	int Pivote = valores[alto];
+	int i = bajo - 1;
+	for (int j = bajo; j <= alto; j++)
+	{
+		if (valores[j] < Pivote)
+		{
+			i++;
+			Intercambio(&valores[i], &valores[j]);
+		}
+	}
+	Intercambio(&valores[i+1], &valores[alto]);
+	return i + 1;
+}
+
+void Ordenamientos::QuickSort(int valores[], int bajo, int alto)
+{
+	if (bajo < alto)
+	{
+		int Pi = Particion(valores, bajo, alto);
+		QuickSort(valores, bajo, Pi - 1);
+		QuickSort(valores, Pi + 1, alto);
+	}
+	for (int i = bajo; i <= alto; i++)
+	{
+		Console::WriteLine(valores[i]);
+	}
+	Console::WriteLine("");
+}
+
+
+bool Ordenamientos::EstaOrdenado(int valores[], int n)
+{
+	while (--n > 0)
+	{
+		if (valores[n] < valores[n - 1])
+			return false;
+	}
+	return true;
+}
+
+void Ordenamientos::Shuffle(int valores[], int n)
+{
+	Random rnd; 
+	for (int i = 0; i < n; i++)
+	{
+		Intercambio(&valores[i], &valores[rnd.Next(0, n)]);
+	}
+}
+
+void Ordenamientos::BogoSort(int valores[], int n)
+{
+	while (!EstaOrdenado(valores, n))
+	{
+		Shuffle(valores, n);
+	}
+	for (int i = 0; i < n; i++)
+	{
+		Console::WriteLine(valores[i]);
+	}
+
+}

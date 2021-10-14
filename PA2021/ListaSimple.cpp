@@ -3,11 +3,12 @@
 
 void ListaSimple::InsertarNuevo(int valor)
 {
+
 	NodoSimple^ Nuevo = gcnew NodoSimple();
 	Nuevo->Valor = valor;
 	Nuevo->Siguiente = Cabeza;
 	//Solo si es una lista circular 
-	ReemplazaUltimo(Nuevo);
+	//ReemplazaUltimo(Nuevo);
 	Cabeza = Nuevo;
 }
 
