@@ -55,3 +55,11 @@ void Cola::Limpiar()
 		DesEnColar();
 	}
 }
+
+int Cola::Top()
+{
+	if (Cabeza == nullptr)
+		return -1;
+	else
+		return Cabeza->Valor;
+}

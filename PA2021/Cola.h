@@ -10,5 +10,6 @@ public:
 	int Tamano();
 	bool ColaVacia();
 	void Limpiar();
+	int Top();
 };
 

@@ -13,17 +13,28 @@ using namespace System;
 
 int main(array<System::String^>^ args)
 {
-    int Valores[] = {50, 20, 30, 80, 40};
-    Busqueda^ Obj = gcnew Busqueda();
+    Pila^ Numeros = gcnew Pila();
+    Cola^ Pares = gcnew Cola();
+    Pila^ Impares = gcnew Pila();
+    int Ingreso = -1;
+    do {
+        Ingreso = Convert::ToInt32(Console::ReadLine());
+        if (Ingreso != -1)
+        {
+            Numeros->Insertar(Ingreso);
+        }
+    } while (Ingreso != -1);
     
-    Obj->InsertarHashDinamico(1);
-    Obj->InsertarHashDinamico(101);
-    Obj->InsertarHashDinamico(201);
-    Obj->InsertarHashDinamico(320);
-    int Pos;
-    int Indice = Obj->BusquedaHashDinamico(1, Pos);
-    Console::WriteLine(Indice);
-    Console::WriteLine(Pos);
+    while (!Numeros->PilaVacia())
+    {
+        int Valor = Numeros->Quitar();
+        if (Valor % 2 == 0)
+            Pares->EnColar(Valor);
+        else
+            Impares->Insertar(Valor);
+    }
+
+
     Console::ReadKey();
     return 0;
 }

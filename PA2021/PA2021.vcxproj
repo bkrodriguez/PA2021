@@ -127,8 +127,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Busqueda.h" />
+    <ClInclude Include="Circulo.h" />
     <ClInclude Include="Clase28092021.h" />
     <ClInclude Include="Cola.h" />
+    <ClInclude Include="Cuadrado.h" />
+    <ClInclude Include="Figura.h" />
     <ClInclude Include="ListaDoble.h" />
     <ClInclude Include="ListaSimple.h" />
     <ClInclude Include="NodoDoble.h" />
@@ -139,12 +142,16 @@
     <ClInclude Include="Pila.h" />
     <ClInclude Include="Recursividad.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Triangulo.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="Busqueda.cpp" />
+    <ClCompile Include="Circulo.cpp" />
     <ClCompile Include="Clase28092021.cpp" />
     <ClCompile Include="Cola.cpp" />
+    <ClCompile Include="Cuadrado.cpp" />
+    <ClCompile Include="Figura.cpp" />
     <ClCompile Include="ListaDoble.cpp" />
     <ClCompile Include="ListaSimple.cpp" />
     <ClCompile Include="NodoDoble.cpp" />
@@ -160,6 +167,7 @@
     </ClCompile>
     <ClCompile Include="Pila.cpp" />
     <ClCompile Include="Recursividad.cpp" />
+    <ClCompile Include="Triangulo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico" />

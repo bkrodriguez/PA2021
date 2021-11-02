@@ -1,6 +1,15 @@
 #include "pch.h"
 #include "Pila.h"
 
+Pila::Pila()
+{
+	Cabeza = nullptr;
+}
+
+Pila::Pila(int valor)
+{
+	Insertar(valor);
+}
 
 void Pila::Insertar(int valor)
 {

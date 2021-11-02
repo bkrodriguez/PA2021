@@ -4,6 +4,8 @@ ref class Pila
 {
 	NodoSimple^ Cabeza;
 public:
+	Pila(int valor);
+	Pila();
 	void Insertar(int valor);
 	int Quitar();
 	bool PilaVacia();

@@ -59,6 +59,18 @@
     <ClInclude Include="Busqueda.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Figura.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuadrado.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circulo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PA2021.cpp">
@@ -101,6 +113,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Busqueda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Figura.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cuadrado.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circulo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangulo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
