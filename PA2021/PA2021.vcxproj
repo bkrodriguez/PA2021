@@ -131,7 +131,9 @@
     <ClInclude Include="Clase28092021.h" />
     <ClInclude Include="Cola.h" />
     <ClInclude Include="Cuadrado.h" />
+    <ClInclude Include="Estudiante.h" />
     <ClInclude Include="Figura.h" />
+    <ClInclude Include="IPunto.h" />
     <ClInclude Include="ListaDoble.h" />
     <ClInclude Include="ListaSimple.h" />
     <ClInclude Include="NodoDoble.h" />
@@ -139,7 +141,10 @@
     <ClInclude Include="Ordenamientos.h" />
     <ClInclude Include="Parcial1.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Persona.h" />
+    <ClInclude Include="Personal.h" />
     <ClInclude Include="Pila.h" />
+    <ClInclude Include="Punto.h" />
     <ClInclude Include="Recursividad.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Triangulo.h" />
@@ -151,7 +156,9 @@
     <ClCompile Include="Clase28092021.cpp" />
     <ClCompile Include="Cola.cpp" />
     <ClCompile Include="Cuadrado.cpp" />
+    <ClCompile Include="Estudiante.cpp" />
     <ClCompile Include="Figura.cpp" />
+    <ClCompile Include="IPunto.cpp" />
     <ClCompile Include="ListaDoble.cpp" />
     <ClCompile Include="ListaSimple.cpp" />
     <ClCompile Include="NodoDoble.cpp" />
@@ -165,7 +172,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Persona.cpp" />
+    <ClCompile Include="Personal.cpp" />
     <ClCompile Include="Pila.cpp" />
+    <ClCompile Include="Punto.cpp" />
     <ClCompile Include="Recursividad.cpp" />
     <ClCompile Include="Triangulo.cpp" />
   </ItemGroup>

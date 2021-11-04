@@ -8,7 +8,7 @@ protected:
 public:
     Cuadrado();
     Cuadrado(int lado);
-    double CalcularArea();
-    double CalcularPerimetro();
+    double CalcularArea() override;
+    double CalcularPerimetro() override;
 };
 

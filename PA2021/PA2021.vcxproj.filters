@@ -71,6 +71,21 @@
     <ClInclude Include="Triangulo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Persona.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Estudiante.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Personal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPunto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Punto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PA2021.cpp">
@@ -125,6 +140,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Triangulo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Persona.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Estudiante.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Personal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IPunto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Punto.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

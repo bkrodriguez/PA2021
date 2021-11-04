@@ -1,6 +1,10 @@
 #include "pch.h"
 #include "Circulo.h"
 
+Circulo::Circulo()
+{
+}
+
 Circulo::Circulo(double radio)
 {
 	Radio = radio;

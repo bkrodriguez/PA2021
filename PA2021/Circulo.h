@@ -6,8 +6,9 @@ ref class Circulo :
 {
     double Radio;
 public:
+    Circulo();
     Circulo(double radio);
-    double CalcularArea();
-    double CalcularPerimetro();
+    double CalcularArea() override;
+    double CalcularPerimetro() override;
 };
 
