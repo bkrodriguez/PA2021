@@ -1,5 +1,6 @@
 #pragma once
 #include "Figura.h"
+#include "Persona.h"
 ref class Cuadrado :
     public Figura
 {

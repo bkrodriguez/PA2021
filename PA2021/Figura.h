@@ -7,5 +7,6 @@ protected:
 public:
 	virtual double CalcularArea() = 0;
 	virtual double CalcularPerimetro() = 0;
+	virtual double CalcularVolumen() = 0;
 };
 
