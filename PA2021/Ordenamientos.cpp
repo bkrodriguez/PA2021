@@ -70,6 +70,28 @@ void Ordenamientos::Selection(int valores[], int n)
 	}
 }
 
+void Ordenamientos::Insertion(int valores[], int n) {
+	int key, j;
+	for (int i = 1; i < n; i++) {
+		key = valores[i];
+		j = i - 1;
+
+		// Move elements of arr[0..i-1],
+		// that are greater than key, 
+		// to one position ahead of their
+		// current position
+		while (j >= 0 && valores[j] > key) {
+			valores[j + 1] = valores[j];
+			j = j - 1;
+		}
+		valores[j + 1] = key;
+	}
+	for (int i = 0; i < n; i++)
+	{
+		Console::WriteLine(valores[i]);
+	}
+}
+
 void Ordenamientos::Shell(int valores[], int n)
 {
 	for (int gap = n/2; gap > 0; gap /= 2)

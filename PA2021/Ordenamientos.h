@@ -5,6 +5,7 @@ public:
 	void Burbuja(int valores[], int n);
 	void BurbujaV2(int valores[], int n);
 	void Selection(int valores[], int n);
+	void Insertion(int valores[], int n);
 	void Shell(int valores[], int n);
 	void Intercambio(int* a, int* b);
 	int Particion(int valores[], int bajo, int alto);

@@ -8,7 +8,6 @@ Circulo::Circulo()
 Circulo::Circulo(double radio)
 {
 	Radio = radio;
-	Tipo = "Circulo";
 }
 
 double Circulo::CalcularArea()
