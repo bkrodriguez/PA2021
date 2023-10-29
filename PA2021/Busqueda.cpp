@@ -88,5 +88,7 @@ int Busqueda::BusquedaHashDinamico(int value, int& pos)
 		return -1;
 	int Pos = Hash[Indice]->Buscar(value);
 	pos = Pos;
+	if (pos == -1)
+		return -1;
 	return Indice;
 }

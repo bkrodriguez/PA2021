@@ -58,7 +58,7 @@ void Cola::Limpiar()
 
 int Cola::Top()
 {
-	if (Cabeza == nullptr)
+	if (ColaVacia())
 		return -1;
 	else
 		return Cabeza->Valor;

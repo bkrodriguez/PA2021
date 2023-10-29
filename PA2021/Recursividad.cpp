@@ -2,6 +2,13 @@
 #include "Recursividad.h"
 using namespace System;
 
+
+void Recursividad::semanticaValorReferencia(int valor, int& referencia)
+{
+    valor = 1;
+    referencia = 1;
+}
+
 /*RECURSIVIDAD DIRECTA
   0 1 2 3 4 5 6 7  8
 0 1 1 2 3 5 8 13 21......

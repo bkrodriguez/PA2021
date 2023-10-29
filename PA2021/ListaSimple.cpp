@@ -70,6 +70,19 @@ int ListaSimple::Buscar(int valor)
 	return -1; 
 }
 
+int ListaSimple::BuscarIndice(int indice)
+{
+	int valor = -1;
+	int posInicial = 0;
+	NodoSimple^ nodoActual = Cabeza;
+	while (posInicial < indice)
+	{
+		nodoActual = nodoActual->Siguiente;
+		posInicial++;
+	}
+	return nodoActual->Valor;
+}
+
 bool ListaSimple::Eliminar(int valor)
 {
 	NodoSimple^ Actual = Cabeza;
